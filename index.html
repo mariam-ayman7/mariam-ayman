@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Mariam Ayman</h1>
+        <nav >
+            <ul>
+                <li><a  href="#MAIN" id="navclickone" onclick="homeFun()">HOME</a></li>
+                <li><a  href="#skills" id="navclicktwo" onclick="servFun()">Services</a></li>
+                <li><a  href="#project" id="navclickthree" onclick="projectFun()">Project</a></li>
+                <li><a  href="#SocialMedia" id="navclickfour" onclick="contactFun()">Contact</a></li>
+                <li><a  href="#message" id="navclickfive" onclick="massageFun()">message </a></li>
+            </ul>
+        </nav>
+        <br>
+           </header>
+    <section id="MAIN">
+        <div>
+            <img src="صوره 1.jpeg" alt="">
+        </div>
+        <div >
+            <h2 id="changeText">youtuber</h2>
+        </div>
+    </section>  
+        <div class="skills" id="skills">
+            <h3> Have Three Skills:</h3>
+        <div id="icon">
+            <div >
+                <i class="fa-brands fa-html5">
+                </i>
+                <h4>HTML</h4>
+                <P>HTML is the standard markup language for Web pages.
+
+                    With HTML you can create your own Website.
+                    
+                    HTML is easy to learn - You will enjoy it!</P>
+            </div>
+            <div >
+                <i class="fa-brands fa-css3-alt"></i><h4>CSS</h4><P>CSS is the language we use to style an HTML document.
+
+                CSS describes how HTML elements should be displayed.
+                
+                This tutorial will teach you CSS from basic to advanced.</P>
+            </div>
+            <div >
+                <i class="fa-brands fa-js"></i>
+                <h4>JS</h4>
+                <P>JavaScript is the world's most popular programming language.
+
+                JavaScript is the programming language of the Web.
+                
+                JavaScript is easy to learn.
+                
+                This tutorial will teach you JavaScript from basic to advanced.</P>
+            </div>
+    </div>
+   </div>
+    <div class="project" id="project">
+        <h4> My Projects:</h4>
+        <div id="images">
+            <div  class="task1">
+       
+        <h5>Profile Web Site</h5>
+        <img src="task1 (2).jpeg" alt="Profile Web Site">
+    </div>
+    <div  class="task2">
+        <h5>Hover to Show my Contact</h5>
+        <img src="task2.jpeg" alt="Hover to Show my Contact">
+    </div>
+    <div  class="task3">
+        
+        <h5>web site test</h5>
+        <img src="task3.png" alt="web site test">
+    </div>
+</div>
+</div>
+<section class="SocialMedia" id="SocialMedia">
+    <h6 >Social Media</h6>
+    <div id="content"><a href="https://www.linkedin.com/in/mariam-ayman-0648922a5" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=61551825034866&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href=" https://codepen.io/Mariam-Ayman-the-styleful#:~:text=Mariam%2DAyman%2Dthe%2Dstyleful" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+    <a href="https://00201272079752.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://youtube.com/@user-qq2dy9hz9g?si=uPA0GOQnSVZxCKHN" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    </a></div>
+</section>
+<footer id="message">
+    <form id="form" action="">
+        <input id="username" type="text" name="" placeholder="enter your name">
+        <br><br>
+        <input id="useremail" type="email" name="" placeholder="enter your email" onkeyup="checkEmail()">
+        <br><br>
+        <span id="result"></span><br><br>
+        <h7>Request Type</h7><br><br>
+        <input type="radio" name="typeOfServies">
+        Consultation
+        <input type="radio" name="typeOfServies">
+        JOP Opportunity
+        <br><br>
+        <textarea id="leavemessage" placeholder="leave message here"></textarea>
+        <input type="submit" ><br><br>
+        <input type="reset"><br><br>
+    </form>
+    <div class="img2">
+        <img src="صوره 2.jpeg" alt="">
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
